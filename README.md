@@ -9,7 +9,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://cecemaru.github.io/My-Gallery/">
+    <a href="https://cecemaru.github.io/Checkout-Page/">
       Demo
     </a>
     <span> | </span>
@@ -38,7 +38,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/Cecemaru/My-Gallery/blob/master/assets/img/my-gallery-index-page-ss.png)
+![screenshot](https://github.com/Cecemaru/Checkout-Page/blob/master/assests/img/screencapture-checkout.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
