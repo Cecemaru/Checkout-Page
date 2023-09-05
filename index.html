@@ -39,241 +39,243 @@
     <main class="container">
       <h1>Checkout</h1>
 
-      <aside class="checkout-card">
-        <figure class="products">
-          <div class="card-img">
-            <img src="assests/img/photo1.png" alt="green bag" />
-          </div>
+      <section class="row">
+        <aside class="checkout-card">
+          <figure class="products">
+            <div class="card-img">
+              <img src="assests/img/photo1.png" alt="green bag" />
+            </div>
 
-          <div class="product-info">
-            <figcaption>
-              <h3>Vintage Backbag</h3>
+            <div class="product-info">
+              <figcaption>
+                <h3>Vintage Backbag</h3>
 
-              <div class="card-price">
-                <span>$54.99</span>
-                <p>$94.99</p>
+                <div class="card-price">
+                  <span>$54.99</span>
+                  <p>$94.99</p>
+                </div>
+              </figcaption>
+
+              <div class="card-button">
+                <button>
+                  <span class="material-symbols-outlined custom"> remove </span>
+                </button>
+
+                <span>1</span>
+
+                <button>
+                  <span class="material-symbols-outlined custom"> add </span>
+                </button>
               </div>
-            </figcaption>
-
-            <div class="card-button">
-              <button>
-                <span class="material-symbols-outlined custom"> remove </span>
-              </button>
-
-              <span>1</span>
-
-              <button>
-                <span class="material-symbols-outlined custom"> add </span>
-              </button>
             </div>
-          </div>
-        </figure>
+          </figure>
 
-        <figure class="products">
-          <div class="card-img">
-            <img src="assests/img/photo2.png" alt="green bag" />
-          </div>
+          <figure class="products">
+            <div class="card-img">
+              <img src="assests/img/photo2.png" alt="green bag" />
+            </div>
 
-          <div class="product-info">
-            <figcaption>
-              <h3>Levi Shoes</h3>
+            <div class="product-info">
+              <figcaption>
+                <h3>Levi Shoes</h3>
 
-              <div class="card-price">
-                <span>$74.99</span>
-                <p>$124.99</p>
+                <div class="card-price">
+                  <span>$74.99</span>
+                  <p>$124.99</p>
+                </div>
+              </figcaption>
+
+              <div class="card-button">
+                <button>
+                  <span class="material-symbols-outlined custom"> remove </span>
+                </button>
+
+                <span>1</span>
+
+                <button>
+                  <span class="material-symbols-outlined custom"> add </span>
+                </button>
               </div>
-            </figcaption>
+            </div>
+          </figure>
 
-            <div class="card-button">
-              <button>
-                <span class="material-symbols-outlined custom"> remove </span>
-              </button>
+          <div class="checkout-total">
+            <hr />
+            <div class="card-footer">
+              <p>Shipping</p>
+              <span>$19</span>
+            </div>
 
-              <span>1</span>
-
-              <button>
-                <span class="material-symbols-outlined custom"> add </span>
-              </button>
+            <hr />
+            <div class="card-footer">
+              <p>Total</p>
+              <span>$148.98</span>
             </div>
           </div>
-        </figure>
+        </aside>
 
-        <div class="checkout-total">
-          <hr />
-          <div class="card-footer">
-            <p>Shipping</p>
-            <span>$19</span>
-          </div>
+        <form action="index.html" method="get">
+          <div class="form-section">
+            <h2>Contact infomation</h2>
 
-          <hr />
-          <div class="card-footer">
-            <p>Total</p>
-            <span>$148.98</span>
-          </div>
-        </div>
-      </aside>
-
-      <form action="index.html" method="get">
-        <div class="form-section">
-          <h2>Contact infomation</h2>
-
-          <div class="form-group">
-            <div class="form-group-title">
-              <label for="email">E-mail</label>
-            </div>
-
-            <div class="form-box">
-              <label for="email">
-                <span class="material-symbols-outlined custom"> mail </span>
-              </label>
-
-              <input
-                type="email"
-                name="email-adress"
-                placeholder="Enter your email..."
-                id="email"
-              />
-            </div>
-          </div>
-
-          <div class="form-group">
-            <div class="form-group-title">
-              <label for="telephone">Phone</label>
-            </div>
-
-            <div class="form-box">
-              <label for="telephone">
-                <span class="material-symbols-outlined custom"> call </span>
-              </label>
-
-              <input
-                type="number"
-                name="telephone-number"
-                placeholder="Enter your phone..."
-                id="telephone"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div class="form-section">
-          <h2>Shipping address</h2>
-
-          <div class="form-group">
-            <div class="form-group-title">
-              <label for="email">Full name</label>
-            </div>
-
-            <div class="form-box">
-              <label for="fullname">
-                <span class="material-icons"> account_circle </span>
-              </label>
-
-              <input
-                type="text"
-                name="fullname"
-                placeholder="Enter your fullname..."
-                id="fullname"
-                value="Rodney Cotton"
-              />
-            </div>
-          </div>
-
-          <div class="form-group">
-            <div class="form-group-title">
-              <label for="address">Adress</label>
-            </div>
-
-            <div class="form-box">
-              <label for="address">
-                <span class="material-symbols-outlined custom"> home </span>
-              </label>
-
-              <input
-                type="text"
-                name="home-address"
-                placeholder="Your address..."
-                id="address"
-              />
-            </div>
-          </div>
-
-          <div class="form-group">
-            <div class="form-group-title">
-              <label for="city">City</label>
-            </div>
-
-            <div class="form-box">
-              <label for="city">
-                <span class="material-symbols-outlined custom">
-                  location_city
-                </span>
-              </label>
-
-              <input
-                type="text"
-                name="city"
-                placeholder="Your city..."
-                id="city"
-              />
-            </div>
-          </div>
-
-          <div class="flex-form">
             <div class="form-group">
               <div class="form-group-title">
-                <label for="country">Country</label>
+                <label for="email">E-mail</label>
               </div>
 
               <div class="form-box">
-                <label for="country">
+                <label for="email">
+                  <span class="material-symbols-outlined custom"> mail </span>
+                </label>
+
+                <input
+                  type="email"
+                  name="email-adress"
+                  placeholder="Enter your email..."
+                  id="email"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="form-group-title">
+                <label for="telephone">Phone</label>
+              </div>
+
+              <div class="form-box">
+                <label for="telephone">
+                  <span class="material-symbols-outlined custom"> call </span>
+                </label>
+
+                <input
+                  type="number"
+                  name="telephone-number"
+                  placeholder="Enter your phone..."
+                  id="telephone"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h2>Shipping address</h2>
+
+            <div class="form-group">
+              <div class="form-group-title">
+                <label for="email">Full name</label>
+              </div>
+
+              <div class="form-box">
+                <label for="fullname">
+                  <span class="material-icons"> account_circle </span>
+                </label>
+
+                <input
+                  type="text"
+                  name="fullname"
+                  placeholder="Enter your fullname..."
+                  id="fullname"
+                  value="Rodney Cotton"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="form-group-title">
+                <label for="address">Adress</label>
+              </div>
+
+              <div class="form-box">
+                <label for="address">
+                  <span class="material-symbols-outlined custom"> home </span>
+                </label>
+
+                <input
+                  type="text"
+                  name="home-address"
+                  placeholder="Your address..."
+                  id="address"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="form-group-title">
+                <label for="city">City</label>
+              </div>
+
+              <div class="form-box">
+                <label for="city">
                   <span class="material-symbols-outlined custom">
                     location_city
                   </span>
                 </label>
 
-                <select name="country" id="country">
-                  <option value="turkey">Turkey</option>
-
-                  <option value="turkey">Turkey</option>
-
-                  <option value="turkey">Turkey</option>
-                </select>
-              </div>
-            </div>
-
-            <div class="form-group">
-              <div class="form-group-title">
-                <label for="postalcode">Postal code</label>
-              </div>
-
-              <div class="form-box">
-                <label for="postalcode">
-                  <span class="material-symbols-outlined custom">
-                    markunread_mailbox
-                  </span>
-                </label>
-
                 <input
                   type="text"
-                  name="postal-code"
-                  placeholder="Your postal code..."
-                  id="postalcode"
+                  name="city"
+                  placeholder="Your city..."
+                  id="city"
                 />
               </div>
             </div>
+
+            <div class="flex-form">
+              <div class="form-group">
+                <div class="form-group-title">
+                  <label for="country">Country</label>
+                </div>
+
+                <div class="form-box">
+                  <label for="country">
+                    <span class="material-symbols-outlined custom">
+                      location_city
+                    </span>
+                  </label>
+
+                  <select name="country" id="country">
+                    <option value="turkey">Turkey</option>
+
+                    <option value="turkey">Turkey</option>
+
+                    <option value="turkey">Turkey</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="form-group-title">
+                  <label for="postalcode">Postal code</label>
+                </div>
+
+                <div class="form-box">
+                  <label for="postalcode">
+                    <span class="material-symbols-outlined custom">
+                      markunread_mailbox
+                    </span>
+                  </label>
+
+                  <input
+                    type="text"
+                    name="postal-code"
+                    placeholder="Your postal code..."
+                    id="postalcode"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div class="checkbox-section">
-          <input type="checkbox" name="save" id="save" />
-          <label for="save">Save this information for next time</label>
-        </div>
+          <div class="checkbox-section">
+            <input type="checkbox" name="save" id="save" />
+            <label for="save">Save this information for next time</label>
+          </div>
 
-        <div class="form-button">
-          <button type="submit" class="submit-button">Continue</button>
-        </div>
-      </form>
+          <div class="form-button">
+            <button type="submit" class="submit-button">Continue</button>
+          </div>
+        </form>
+      </section>
     </main>
 
     <footer>created by Cecemaru - devChallenges.io</footer>
